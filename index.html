@@ -74,7 +74,7 @@
      </section>
 
      <!-- menu -->
-     <section class="menu" id="menu">
+     <section class="menu" id="menu" >
      	
 
 
@@ -132,14 +132,25 @@
 var navlinks = document.getElementById('navLinks');
         
 function showMenu() {
+  navlinks.style.display = "block";
+ 
   navlinks.style.right = "0";
 }
 
 function hideMenu() {
   navlinks.style.right = "-200px";
+  navlinks.style.display = "none";
+ 
+  
+
 }
 
 
+
+	</script>
+
+</body>
+</html>
 
 	</script>
 
